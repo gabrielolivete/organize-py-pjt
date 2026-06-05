@@ -11,4 +11,4 @@ for file in files_list:
     if ".pdf" in file:
         merger.append(f"files/{file}")
 
-merger.write("final_PDF.pdf")
+merger.write("final_document.pdf")
